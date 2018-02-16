@@ -1,7 +1,7 @@
 body{font-family: 'Roboto', sans-serif;}
 		#messages { list-style-type: none; margin: 0; padding: 0; }
 		#messages li.customer-error { color: red; }
-		input:focus{outline: none;}        
+		
 		
 		#win::-webkit-scrollbar-track
 		{
