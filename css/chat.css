@@ -1,7 +1,7 @@
 body{font-family: 'Roboto', sans-serif;}
 		#messages { list-style-type: none; margin: 0; padding: 0; }
 		#messages li.customer-error { color: red; }
-		
+		input:focus{outline: none;}        
 		
 		#win::-webkit-scrollbar-track
 		{
@@ -68,6 +68,17 @@ body{font-family: 'Roboto', sans-serif;}
 			
 		}
 		     
+		input
+		{
+			background-color: #fff;
+			border: 0px solid;
+			height: 50px;
+			width: 30px;
+			color: #000;
+			float:left;
+			z-index:100000;
+			font-size:15px;
+		}
 		.custmsg
 		{
 
@@ -169,7 +180,7 @@ body{font-family: 'Roboto', sans-serif;}
 {
 	z-index:1000000!important;
 }
-.popupmodal {
+.modal {
 	font-family: 'Indie Flower', cursive;
 	font-size:1.5em;
     display: block; /* Hidden by default */
@@ -186,7 +197,7 @@ body{font-family: 'Roboto', sans-serif;}
 }
 
 /* Modal Content */
-.popupmodal-content {
+.modal-content {
     background-color: #b6d17a;
     margin: auto;
     padding: 20px;
@@ -196,15 +207,15 @@ body{font-family: 'Roboto', sans-serif;}
 }
 
 /* The Close Button */
-.popupclose {
+.close {
     color: #aaaaaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
 }
 
-.popupclose:hover,
-.popupclose:focus {
+.close:hover,
+.close:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
