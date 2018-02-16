@@ -170,7 +170,7 @@ body{font-family: 'Roboto', sans-serif;}
 {
 	z-index:1000000!important;
 }
-.modal {
+.popupmodal {
 	font-family: 'Indie Flower', cursive;
 	font-size:1.5em;
     display: block; /* Hidden by default */
@@ -187,7 +187,7 @@ body{font-family: 'Roboto', sans-serif;}
 }
 
 /* Modal Content */
-.modal-content {
+.popupmodal-content {
     background-color: #b6d17a;
     margin: auto;
     padding: 20px;
@@ -197,15 +197,15 @@ body{font-family: 'Roboto', sans-serif;}
 }
 
 /* The Close Button */
-.close {
+.popupclose {
     color: #aaaaaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.popupclose:hover,
+.popupclose:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
