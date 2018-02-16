@@ -1,38 +1,6 @@
-body{font-family: 'Roboto', sans-serif;}
+
 		#messages { list-style-type: none; margin: 0; padding: 0; }
 		#messages li.customer-error { color: red; }
-		input:focus{outline: none;}        
-		
-		#win::-webkit-scrollbar-track
-		{
-			-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-			background-color: #F5F5F5;
-		}
-
-		#win::-webkit-scrollbar
-		{
-			width: 6px;
-			background-color: #F5F5F5;
-		}
-
-		#win::-webkit-scrollbar-thumb
-		{
-			background-color: #eee;
-		}
-		#win
-		{
-			overflow:scroll;
-			overflow-x: hidden;
-			width:360px;
-			height:390px;
-			border-bottom: 1px solid black;
-			border-bottom-color:rgb(189, 199, 216);
-			border-top: 1px solid black;
-			border-top-color:rgb(189, 199, 216);
-			padding-top:10px;
-			
-	 
-		}
 		#agent
 		{
 			width:365px;
@@ -49,6 +17,7 @@ body{font-family: 'Roboto', sans-serif;}
 			position:absolute;
 			bottom:40px;
 			right:50px;
+			z-index:1000000!important;
 			
 		  
 		}
@@ -61,13 +30,6 @@ body{font-family: 'Roboto', sans-serif;}
 			border-top-left-radius: 15px;
 			border-top-right-radius:15px;
 		}
-		#inp,#m
-		{
-			width:330px;
-			height:50px;
-			
-		}
-		     
 		
 		.custmsg
 		{
