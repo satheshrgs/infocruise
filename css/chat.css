@@ -176,3 +176,7 @@ body{font-family: 'Roboto', sans-serif;}
 			height:50px;
 			z-index:100000;
 		}
+		#minbtnimg
+{
+	z-index:1000000!important;
+}
