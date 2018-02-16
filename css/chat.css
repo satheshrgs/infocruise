@@ -153,6 +153,7 @@ body{font-family: 'Roboto', sans-serif;}
 			height:25px;
 			background-color: #fff;
 			border-radius: 50%;
+			z-index:1000000!important;
 		}
 		#messenger-img
 		{
