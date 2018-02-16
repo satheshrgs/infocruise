@@ -1,7 +1,7 @@
 $(document).ready(function() {
-var a="<div id='myModal' class='modal'>";
-  var b="<div class='modal-content' id='myModal-content'>";
-    var c="<span class='close' onclick='spanclick()'>&times;</span>";
+var a="<div id='myModal' class='popupmodal'>";
+  var b="<div class='popupmodal-content' id='myModal-content'>";
+    var c="<span class='popupclose' onclick='spanclick()'>&times;</span>";
 		var d="<b><p><center>Bored With Hike Natasha???   <h2>Chat with our <a href='http://infocruise.herokuapp.com/mobile' target='_blank'>InfoBot</a></h2></center></p>";
   var e="</div>"
 var f="</div>"
@@ -17,7 +17,6 @@ $("body").append(g);
 
 var btn = document.getElementById("myBtn");
 var span = document.getElementsByClassName("close")[0];
-alert("get values called");
 function spanclick() {
 	var modal = document.getElementById('myModal');
     modal.style.display = "none";
