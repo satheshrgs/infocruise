@@ -17,6 +17,7 @@ $("body").append(g);
 
 var btn = document.getElementById("myBtn");
 var span = document.getElementsByClassName("close")[0];
+alert("get values called");
 function spanclick() {
 	var modal = document.getElementById('myModal');
     modal.style.display = "none";
