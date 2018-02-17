@@ -2,7 +2,7 @@ $(document).ready(function() {
 var a="<div id='myModal' class='popupmodal'>";
   var b="<div class='popupmodal-content' id='myModal-content'>";
     var c="<span class='popupclose' onclick='spanclick()'>&times;</span>";
-		var d="<b><p><center>Bored With Hike Natasha???   <h2>Chat with our <a href='http://infocruise.herokuapp.com/mobile' target='_blank'>InfoBot</a></h2></center></p>";
+		var d="<b><p><center><h1>Infocruise2k18 Personal Assistant</h1><hr><br>Bored With Hike Natasha???   <h2>Chat with our <a href='http://infocruise.herokuapp.com/mobile' target='_blank'>InfoBot</a></h2></center></p>";
   var e="</div>"
 var f="</div>"
 $("body").append(a);
